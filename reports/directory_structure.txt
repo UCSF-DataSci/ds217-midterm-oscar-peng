@@ -1,0 +1,24 @@
+total 168
+drwxrwxrwx+ 9 codespace root       4096 Oct 25 19:56 .
+drwxr-xrwx+ 5 codespace root       4096 Oct 25 05:08 ..
+drwxrwxrwx+ 8 codespace root       4096 Oct 25 05:10 .git
+drwxrwxrwx+ 4 codespace root       4096 Oct 25 05:08 .github
+-rw-rw-rw-  1 codespace root          8 Oct 25 05:08 .gitignore
+drwxrwxrwx+ 7 codespace codespace  4096 Oct 25 19:53 .venv
+-rw-rw-rw-  1 codespace root      14662 Oct 25 05:08 GRADING_SPEC.md
+-rw-rw-rw-  1 codespace root      12595 Oct 25 05:08 README.md
+drwxrwxrwx+ 2 codespace root       4096 Oct 25 19:54 __pycache__
+drwxrwxrwx+ 2 codespace codespace  4096 Oct 25 19:56 data
+-rwxrwxrwx  1 codespace root      13266 Oct 25 05:08 generate_data.py
+drwxrwxrwx+ 2 codespace codespace  4096 Oct 25 19:56 output
+-rwxrwxrwx  1 codespace root        781 Oct 25 05:18 q1_setup_project.sh
+-rw-rw-rw-  1 codespace root         58 Oct 25 05:08 q2_config.txt
+-rwxrwxrwx  1 codespace root       4814 Oct 25 19:09 q2_process_metadata.py
+-rw-rw-rw-  1 codespace root       8919 Oct 25 19:42 q3_data_utils.py
+-rw-rw-rw-  1 codespace root      19713 Oct 25 19:54 q4_exploration.ipynb
+-rw-rw-rw-  1 codespace root       4824 Oct 25 05:08 q5_missing_data.ipynb
+-rw-rw-rw-  1 codespace root       6194 Oct 25 05:08 q6_transformation.ipynb
+-rw-rw-rw-  1 codespace root       4995 Oct 25 05:08 q7_aggregation.ipynb
+-rwxrwxrwx  1 codespace root        908 Oct 25 05:08 q8_run_pipeline.sh
+drwxrwxrwx+ 2 codespace codespace  4096 Oct 25 19:56 reports
+-rw-rw-rw-  1 codespace root         91 Oct 25 05:08 requirements.txt

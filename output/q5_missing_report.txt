@@ -1,0 +1,56 @@
+MISSING DATA REPORT
+
+ORIGINAL DATASET:
+- Total rows: 10000
+- Total columns: 19
+
+Missing values by column (before cleaning):
+Unnamed: 0               0
+patient_id               0
+age                    200
+sex                      0
+bmi                    626
+enrollment_date          0
+systolic_bp            414
+diastolic_bp           414
+cholesterol_total      554
+cholesterol_hdl        554
+cholesterol_ldl        554
+glucose_fasting        369
+site                     0
+intervention_group       0
+follow_up_months         0
+adverse_events           0
+outcome_cvd              0
+adherence_pct         1467
+dropout                  0
+
+CLEANING STRATEGY:
+- Imputed numeric columns using MEDIAN strategy
+- Columns imputed: bmi, systolic_bp, diastolic_bp, cholesterol_total, cholesterol_hdl, cholesterol_ldl, glucose_fasting, adherence_pct
+- Rows dropped with missing critical values: 200
+
+FINAL DATASET:
+- Total rows: 9800
+- Total columns: 19
+
+Missing values by column (after cleaning):
+Unnamed: 0            0
+patient_id            0
+age                   0
+sex                   0
+bmi                   0
+enrollment_date       0
+systolic_bp           0
+diastolic_bp          0
+cholesterol_total     0
+cholesterol_hdl       0
+cholesterol_ldl       0
+glucose_fasting       0
+site                  0
+intervention_group    0
+follow_up_months      0
+adverse_events        0
+outcome_cvd           0
+adherence_pct         0
+dropout               0

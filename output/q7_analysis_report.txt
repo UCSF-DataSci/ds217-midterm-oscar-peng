@@ -1,0 +1,24 @@
+Key Findings from Aggregation Analysis
+=======================================
+
+1. Site Summary Statistics:
+       patient_id        age                   bmi          
+            count       mean        std       mean       std
+site                                                        
+site a       2434  81.300740  13.730898  26.294371  3.762968
+site b       2042  80.373164  13.426696  26.166650  3.639129
+site c       1738  80.878021  13.357149  26.299367  3.726802
+site d       1269  80.559496  13.377932  26.266509  3.666040
+site e        845  80.576331  13.731098  26.360710  3.605508
+
+2. Intervention Group Comparison:
+                    CVD Rate (%)  Mean Adherence (%)  Dropout Rate (%)
+intervention_group                                                    
+control                33.297721           60.954772         15.669516
+treatment a            31.931236           60.321873         14.923189
+treatment b            33.560660           61.136037         14.070352
+
+3. Observations:
+- From site A to site E, the count of patients decreases. Their mean age and BMI remained consistent.
+- The mean adherence and dropout rates stayed very consistent across intervention groups.
+- There was no significant difference in CVD rates across intervention groups.
